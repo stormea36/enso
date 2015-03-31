@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2015, 9:08:58 PM
+    Author     : admin
+*/
+body {
+    font-family: 'Raleway', sans-serif;
+    padding-top:50px;
+}
+
+.logo-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron {
+    background-image: url('../img/rock-garden-2.jpg');
+    background-size:cover;
+    color:white;
+    margin-bottom: 0px!important;
+}
+.jumbo-gradient {
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 29%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.7)), color-stop(29%,rgba(0,0,0,0.4)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 29%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 29%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 29%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 29%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+.social-bar {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.6em;
+    background-color:#222;
+}
+
+.thumbnail > img {
+    width:50%;
+    padding-top: 20px;
+}
